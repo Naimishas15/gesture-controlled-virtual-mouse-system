@@ -12,6 +12,7 @@ Traditional input devices like a mouse or trackpad limit interaction in touchles
 Developed a gesture-controlled virtual mouse using computer vision and hand tracking techniques. The system detects hand landmarks via webcam input and maps finger movements to cursor control and click actions in real time.
 
 🏗️ System Architecture
+
 Input Layer: Webcam video stream
 Processing Layer:
 Hand detection and tracking using MediaPipe
@@ -21,26 +22,39 @@ Coordinate mapping from camera space to screen space
 Cursor smoothing for stable movement
 Output Layer:
 Mouse movement and click actions using system-level control
+
+
 ⚙️ Tech Stack
+
 Python
 OpenCV
 MediaPipe
 Autopy
 NumPy
+
+
 🔥 Key Features
+
 Real-time hand tracking and gesture detection
 Cursor movement using index finger
 Click action using pinch gesture (index + middle finger)
 Smooth cursor control using interpolation and motion smoothing
 Frame rate optimization for responsive interaction
+
+
 📊 Impact
+
 Demonstrates real-time computer vision system design
 Enables touchless interaction with computing systems
 Showcases integration of AI perception with system control
 Can be extended for accessibility tools, AR/VR interfaces, and smart environments
+
+
 🚀 How to Run
+
 git clone https://github.com/Naimishas15/gesture-controlled-virtual-mouse-system
 cd gesture-controlled-virtual-mouse-system
+
 
 # Create virtual environment (recommended)
 py -3.11 -m venv .venv
